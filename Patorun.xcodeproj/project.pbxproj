@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27320607CB7844438B441CF9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3314117EFD4208A9A37D28 /* libPods.a */; };
+		7579396319A5C94D00CF14F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7579396219A5C94D00CF14F4 /* QuartzCore.framework */; };
+		757939AA19A67F6500CF14F4 /* ResultDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 757939A819A67F6500CF14F4 /* ResultDataCell.m */; };
+		757939AB19A67F6500CF14F4 /* ResultDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 757939A919A67F6500CF14F4 /* ResultDataCell.xib */; };
+		757939AD19A693DF00CF14F4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757939AC19A693DF00CF14F4 /* Social.framework */; };
+		757939B019A6D74800CF14F4 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757939AF19A6D74800CF14F4 /* FindViewController.m */; };
+		757939B419A6DE8000CF14F4 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757939B319A6DE8000CF14F4 /* MyPageViewController.m */; };
+		75D7B4EC199799F90007C12E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B4EB199799F90007C12E /* Foundation.framework */; };
+		75D7B4EE199799F90007C12E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B4ED199799F90007C12E /* CoreGraphics.framework */; };
+		75D7B4F0199799F90007C12E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B4EF199799F90007C12E /* UIKit.framework */; };
+		75D7B4F6199799F90007C12E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B4F4199799F90007C12E /* InfoPlist.strings */; };
+		75D7B4F8199799F90007C12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B4F7199799F90007C12E /* main.m */; };
+		75D7B4FC199799F90007C12E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B4FB199799F90007C12E /* AppDelegate.m */; };
+		75D7B4FF199799F90007C12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B4FD199799F90007C12E /* Main.storyboard */; };
+		75D7B502199799F90007C12E /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B501199799F90007C12E /* CenterViewController.m */; };
+		75D7B50B199799F90007C12E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B50A199799F90007C12E /* XCTest.framework */; };
+		75D7B50C199799F90007C12E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B4EB199799F90007C12E /* Foundation.framework */; };
+		75D7B50D199799F90007C12E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B4EF199799F90007C12E /* UIKit.framework */; };
+		75D7B515199799F90007C12E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B513199799F90007C12E /* InfoPlist.strings */; };
+		75D7B517199799F90007C12E /* PatorunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B516199799F90007C12E /* PatorunTests.m */; };
+		75D7B52219979EB50007C12E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B52119979EB50007C12E /* LeftViewController.m */; };
+		75D7B5251997C4950007C12E /* MySidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B5241997C4950007C12E /* MySidePanelController.m */; };
+		75D7B52D19980FB70007C12E /* SearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B52C19980FB70007C12E /* SearchListViewController.m */; };
+		75D7B530199900550007C12E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B52F199900550007C12E /* Images.xcassets */; };
+		75D7B53319990C160007C12E /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B53219990C160007C12E /* DataViewController.m */; };
+		75D7B53619990C220007C12E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B53519990C220007C12E /* SettingViewController.m */; };
+		75D7B53819992CE00007C12E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B53719992CE00007C12E /* CoreLocation.framework */; };
+		75D7B53B19993E3E0007C12E /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B53A19993E3E0007C12E /* SearchDetailViewController.m */; };
+		75D7B54019993FA20007C12E /* SearchListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B53E19993FA20007C12E /* SearchListCell.m */; };
+		75D7B54119993FA20007C12E /* SearchListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B53F19993FA20007C12E /* SearchListCell.xib */; };
+		75D7B5461999471C0007C12E /* SearchDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B5441999471C0007C12E /* SearchDetailCell.m */; };
+		75D7B5471999471C0007C12E /* SearchDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B5451999471C0007C12E /* SearchDetailCell.xib */; };
+		75D7B54B19994A6E0007C12E /* SearchMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B54919994A6E0007C12E /* SearchMapCell.m */; };
+		75D7B54C19994A6E0007C12E /* SearchMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B54A19994A6E0007C12E /* SearchMapCell.xib */; };
+		75D7B54E19994B180007C12E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B54D19994B180007C12E /* MapKit.framework */; };
+		75D7B554199963730007C12E /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B553199963730007C12E /* ResultViewController.m */; };
+		75D7B55E199A5E4C0007C12E /* ResultMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B55C199A5E4C0007C12E /* ResultMapCell.m */; };
+		75D7B55F199A5E4C0007C12E /* ResultMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B55D199A5E4C0007C12E /* ResultMapCell.xib */; };
+		75D7B567199B65060007C12E /* DataGraphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D7B565199B65060007C12E /* DataGraphCell.m */; };
+		75D7B568199B65060007C12E /* DataGraphCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B566199B65060007C12E /* DataGraphCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D7B50E199799F90007C12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B4E0199799F90007C12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D7B4E7199799F90007C12E;
+			remoteInfo = Patorun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7579396219A5C94D00CF14F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		757939A719A67F6500CF14F4 /* ResultDataCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultDataCell.h; sourceTree = "<group>"; };
+		757939A819A67F6500CF14F4 /* ResultDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultDataCell.m; sourceTree = "<group>"; };
+		757939A919A67F6500CF14F4 /* ResultDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultDataCell.xib; sourceTree = "<group>"; };
+		757939AC19A693DF00CF14F4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		757939AE19A6D74800CF14F4 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		757939AF19A6D74800CF14F4 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		757939B219A6DE8000CF14F4 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
+		757939B319A6DE8000CF14F4 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
+		75D7B4E8199799F90007C12E /* Patorun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patorun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7B4EB199799F90007C12E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75D7B4ED199799F90007C12E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75D7B4EF199799F90007C12E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75D7B4F3199799F90007C12E /* Patorun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Patorun-Info.plist"; sourceTree = "<group>"; };
+		75D7B4F5199799F90007C12E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75D7B4F7199799F90007C12E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75D7B4F9199799F90007C12E /* Patorun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Patorun-Prefix.pch"; sourceTree = "<group>"; };
+		75D7B4FA199799F90007C12E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75D7B4FB199799F90007C12E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75D7B4FE199799F90007C12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D7B500199799F90007C12E /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		75D7B501199799F90007C12E /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		75D7B509199799F90007C12E /* PatorunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatorunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D7B50A199799F90007C12E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75D7B512199799F90007C12E /* PatorunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatorunTests-Info.plist"; sourceTree = "<group>"; };
+		75D7B514199799F90007C12E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75D7B516199799F90007C12E /* PatorunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatorunTests.m; sourceTree = "<group>"; };
+		75D7B52019979EB50007C12E /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		75D7B52119979EB50007C12E /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		75D7B5231997C4950007C12E /* MySidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySidePanelController.h; sourceTree = "<group>"; };
+		75D7B5241997C4950007C12E /* MySidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySidePanelController.m; sourceTree = "<group>"; };
+		75D7B52A199800FA0007C12E /* AppDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		75D7B52B19980FB70007C12E /* SearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListViewController.h; sourceTree = "<group>"; };
+		75D7B52C19980FB70007C12E /* SearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListViewController.m; sourceTree = "<group>"; };
+		75D7B52F199900550007C12E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75D7B53119990C160007C12E /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		75D7B53219990C160007C12E /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		75D7B53419990C220007C12E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		75D7B53519990C220007C12E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		75D7B53719992CE00007C12E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75D7B53919993E3E0007C12E /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		75D7B53A19993E3E0007C12E /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		75D7B53D19993FA20007C12E /* SearchListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListCell.h; sourceTree = "<group>"; };
+		75D7B53E19993FA20007C12E /* SearchListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListCell.m; sourceTree = "<group>"; };
+		75D7B53F19993FA20007C12E /* SearchListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchListCell.xib; sourceTree = "<group>"; };
+		75D7B5431999471C0007C12E /* SearchDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailCell.h; sourceTree = "<group>"; };
+		75D7B5441999471C0007C12E /* SearchDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailCell.m; sourceTree = "<group>"; };
+		75D7B5451999471C0007C12E /* SearchDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchDetailCell.xib; sourceTree = "<group>"; };
+		75D7B54819994A6E0007C12E /* SearchMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMapCell.h; sourceTree = "<group>"; };
+		75D7B54919994A6E0007C12E /* SearchMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMapCell.m; sourceTree = "<group>"; };
+		75D7B54A19994A6E0007C12E /* SearchMapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchMapCell.xib; sourceTree = "<group>"; };
+		75D7B54D19994B180007C12E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		75D7B552199963730007C12E /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		75D7B553199963730007C12E /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		75D7B55B199A5E4C0007C12E /* ResultMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultMapCell.h; sourceTree = "<group>"; };
+		75D7B55C199A5E4C0007C12E /* ResultMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultMapCell.m; sourceTree = "<group>"; };
+		75D7B55D199A5E4C0007C12E /* ResultMapCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultMapCell.xib; sourceTree = "<group>"; };
+		75D7B564199B65060007C12E /* DataGraphCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGraphCell.h; sourceTree = "<group>"; };
+		75D7B565199B65060007C12E /* DataGraphCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataGraphCell.m; sourceTree = "<group>"; };
+		75D7B566199B65060007C12E /* DataGraphCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataGraphCell.xib; sourceTree = "<group>"; };
+		7FC58C674AE441A0A74B992E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FD3314117EFD4208A9A37D28 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D7B4E5199799F90007C12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757939AD19A693DF00CF14F4 /* Social.framework in Frameworks */,
+				7579396319A5C94D00CF14F4 /* QuartzCore.framework in Frameworks */,
+				75D7B54E19994B180007C12E /* MapKit.framework in Frameworks */,
+				75D7B53819992CE00007C12E /* CoreLocation.framework in Frameworks */,
+				75D7B4EE199799F90007C12E /* CoreGraphics.framework in Frameworks */,
+				75D7B4F0199799F90007C12E /* UIKit.framework in Frameworks */,
+				75D7B4EC199799F90007C12E /* Foundation.framework in Frameworks */,
+				27320607CB7844438B441CF9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7B506199799F90007C12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7B50B199799F90007C12E /* XCTest.framework in Frameworks */,
+				75D7B50D199799F90007C12E /* UIKit.framework in Frameworks */,
+				75D7B50C199799F90007C12E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757939B119A6D76800CF14F4 /* FindTab */ = {
+			isa = PBXGroup;
+			children = (
+				757939AE19A6D74800CF14F4 /* FindViewController.h */,
+				757939AF19A6D74800CF14F4 /* FindViewController.m */,
+			);
+			name = FindTab;
+			sourceTree = "<group>";
+		};
+		757939B519A6DE8400CF14F4 /* MyPageTab */ = {
+			isa = PBXGroup;
+			children = (
+				757939B219A6DE8000CF14F4 /* MyPageViewController.h */,
+				757939B319A6DE8000CF14F4 /* MyPageViewController.m */,
+			);
+			name = MyPageTab;
+			sourceTree = "<group>";
+		};
+		75D7B4DF199799F90007C12E = {
+			isa = PBXGroup;
+			children = (
+				75D7B4F1199799F90007C12E /* Patorun */,
+				75D7B510199799F90007C12E /* PatorunTests */,
+				75D7B4EA199799F90007C12E /* Frameworks */,
+				75D7B4E9199799F90007C12E /* Products */,
+				7FC58C674AE441A0A74B992E /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		75D7B4E9199799F90007C12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B4E8199799F90007C12E /* Patorun.app */,
+				75D7B509199799F90007C12E /* PatorunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7B4EA199799F90007C12E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757939AC19A693DF00CF14F4 /* Social.framework */,
+				7579396219A5C94D00CF14F4 /* QuartzCore.framework */,
+				75D7B54D19994B180007C12E /* MapKit.framework */,
+				75D7B53719992CE00007C12E /* CoreLocation.framework */,
+				75D7B4EB199799F90007C12E /* Foundation.framework */,
+				75D7B4ED199799F90007C12E /* CoreGraphics.framework */,
+				75D7B4EF199799F90007C12E /* UIKit.framework */,
+				75D7B50A199799F90007C12E /* XCTest.framework */,
+				FD3314117EFD4208A9A37D28 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D7B4F1199799F90007C12E /* Patorun */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B4F2199799F90007C12E /* Supporting Files */,
+				75D7B52A199800FA0007C12E /* AppDefine.h */,
+				75D7B4FA199799F90007C12E /* AppDelegate.h */,
+				75D7B4FB199799F90007C12E /* AppDelegate.m */,
+				75D7B52F199900550007C12E /* Images.xcassets */,
+				75D7B4FD199799F90007C12E /* Main.storyboard */,
+				75D7B5231997C4950007C12E /* MySidePanelController.h */,
+				75D7B5241997C4950007C12E /* MySidePanelController.m */,
+				75D7B52019979EB50007C12E /* LeftViewController.h */,
+				75D7B52119979EB50007C12E /* LeftViewController.m */,
+				75D7B561199B645A0007C12E /* HomeTab */,
+				75D7B562199B647C0007C12E /* DataTab */,
+				757939B119A6D76800CF14F4 /* FindTab */,
+				757939B519A6DE8400CF14F4 /* MyPageTab */,
+				75D7B563199B649F0007C12E /* SettingTab */,
+			);
+			path = Patorun;
+			sourceTree = "<group>";
+		};
+		75D7B4F2199799F90007C12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B4F3199799F90007C12E /* Patorun-Info.plist */,
+				75D7B4F4199799F90007C12E /* InfoPlist.strings */,
+				75D7B4F7199799F90007C12E /* main.m */,
+				75D7B4F9199799F90007C12E /* Patorun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D7B510199799F90007C12E /* PatorunTests */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B516199799F90007C12E /* PatorunTests.m */,
+				75D7B511199799F90007C12E /* Supporting Files */,
+			);
+			path = PatorunTests;
+			sourceTree = "<group>";
+		};
+		75D7B511199799F90007C12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B512199799F90007C12E /* PatorunTests-Info.plist */,
+				75D7B513199799F90007C12E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D7B53C19993F7B0007C12E /* SearchListViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B53D19993FA20007C12E /* SearchListCell.h */,
+				75D7B53E19993FA20007C12E /* SearchListCell.m */,
+				75D7B53F19993FA20007C12E /* SearchListCell.xib */,
+			);
+			name = SearchListViewCell;
+			sourceTree = "<group>";
+		};
+		75D7B542199945510007C12E /* SearchDetailViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B5431999471C0007C12E /* SearchDetailCell.h */,
+				75D7B5441999471C0007C12E /* SearchDetailCell.m */,
+				75D7B5451999471C0007C12E /* SearchDetailCell.xib */,
+				75D7B54819994A6E0007C12E /* SearchMapCell.h */,
+				75D7B54919994A6E0007C12E /* SearchMapCell.m */,
+				75D7B54A19994A6E0007C12E /* SearchMapCell.xib */,
+			);
+			name = SearchDetailViewCell;
+			sourceTree = "<group>";
+		};
+		75D7B560199A5E520007C12E /* ResultViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B55B199A5E4C0007C12E /* ResultMapCell.h */,
+				75D7B55C199A5E4C0007C12E /* ResultMapCell.m */,
+				75D7B55D199A5E4C0007C12E /* ResultMapCell.xib */,
+				757939A719A67F6500CF14F4 /* ResultDataCell.h */,
+				757939A819A67F6500CF14F4 /* ResultDataCell.m */,
+				757939A919A67F6500CF14F4 /* ResultDataCell.xib */,
+			);
+			name = ResultViewCell;
+			sourceTree = "<group>";
+		};
+		75D7B561199B645A0007C12E /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B500199799F90007C12E /* CenterViewController.h */,
+				75D7B501199799F90007C12E /* CenterViewController.m */,
+				75D7B552199963730007C12E /* ResultViewController.h */,
+				75D7B553199963730007C12E /* ResultViewController.m */,
+				75D7B560199A5E520007C12E /* ResultViewCell */,
+				75D7B52B19980FB70007C12E /* SearchListViewController.h */,
+				75D7B52C19980FB70007C12E /* SearchListViewController.m */,
+				75D7B53C19993F7B0007C12E /* SearchListViewCell */,
+				75D7B53919993E3E0007C12E /* SearchDetailViewController.h */,
+				75D7B53A19993E3E0007C12E /* SearchDetailViewController.m */,
+				75D7B542199945510007C12E /* SearchDetailViewCell */,
+			);
+			name = HomeTab;
+			sourceTree = "<group>";
+		};
+		75D7B562199B647C0007C12E /* DataTab */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B53119990C160007C12E /* DataViewController.h */,
+				75D7B53219990C160007C12E /* DataViewController.m */,
+				75D7B569199B650F0007C12E /* DataViewCell */,
+			);
+			name = DataTab;
+			sourceTree = "<group>";
+		};
+		75D7B563199B649F0007C12E /* SettingTab */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B53419990C220007C12E /* SettingViewController.h */,
+				75D7B53519990C220007C12E /* SettingViewController.m */,
+			);
+			name = SettingTab;
+			sourceTree = "<group>";
+		};
+		75D7B569199B650F0007C12E /* DataViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B564199B65060007C12E /* DataGraphCell.h */,
+				75D7B565199B65060007C12E /* DataGraphCell.m */,
+				75D7B566199B65060007C12E /* DataGraphCell.xib */,
+			);
+			name = DataViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D7B4E7199799F90007C12E /* Patorun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7B51A199799F90007C12E /* Build configuration list for PBXNativeTarget "Patorun" */;
+			buildPhases = (
+				6846989B90184DE793DD92E3 /* Check Pods Manifest.lock */,
+				75D7B4E4199799F90007C12E /* Sources */,
+				75D7B4E5199799F90007C12E /* Frameworks */,
+				75D7B4E6199799F90007C12E /* Resources */,
+				BFD14FE2F6484AB1BD3C613C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patorun;
+			productName = Patorun;
+			productReference = 75D7B4E8199799F90007C12E /* Patorun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D7B508199799F90007C12E /* PatorunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D7B51D199799F90007C12E /* Build configuration list for PBXNativeTarget "PatorunTests" */;
+			buildPhases = (
+				75D7B505199799F90007C12E /* Sources */,
+				75D7B506199799F90007C12E /* Frameworks */,
+				75D7B507199799F90007C12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D7B50F199799F90007C12E /* PBXTargetDependency */,
+			);
+			name = PatorunTests;
+			productName = PatorunTests;
+			productReference = 75D7B509199799F90007C12E /* PatorunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D7B4E0199799F90007C12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yoshitooooom;
+				TargetAttributes = {
+					75D7B508199799F90007C12E = {
+						TestTargetID = 75D7B4E7199799F90007C12E;
+					};
+				};
+			};
+			buildConfigurationList = 75D7B4E3199799F90007C12E /* Build configuration list for PBXProject "Patorun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D7B4DF199799F90007C12E;
+			productRefGroup = 75D7B4E9199799F90007C12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D7B4E7199799F90007C12E /* Patorun */,
+				75D7B508199799F90007C12E /* PatorunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D7B4E6199799F90007C12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7B55F199A5E4C0007C12E /* ResultMapCell.xib in Resources */,
+				75D7B530199900550007C12E /* Images.xcassets in Resources */,
+				75D7B54119993FA20007C12E /* SearchListCell.xib in Resources */,
+				75D7B54C19994A6E0007C12E /* SearchMapCell.xib in Resources */,
+				75D7B5471999471C0007C12E /* SearchDetailCell.xib in Resources */,
+				75D7B4F6199799F90007C12E /* InfoPlist.strings in Resources */,
+				75D7B568199B65060007C12E /* DataGraphCell.xib in Resources */,
+				757939AB19A67F6500CF14F4 /* ResultDataCell.xib in Resources */,
+				75D7B4FF199799F90007C12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7B507199799F90007C12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7B515199799F90007C12E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6846989B90184DE793DD92E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD14FE2F6484AB1BD3C613C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D7B4E4199799F90007C12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7B53B19993E3E0007C12E /* SearchDetailViewController.m in Sources */,
+				757939B019A6D74800CF14F4 /* FindViewController.m in Sources */,
+				75D7B52D19980FB70007C12E /* SearchListViewController.m in Sources */,
+				75D7B5251997C4950007C12E /* MySidePanelController.m in Sources */,
+				75D7B54019993FA20007C12E /* SearchListCell.m in Sources */,
+				757939AA19A67F6500CF14F4 /* ResultDataCell.m in Sources */,
+				75D7B567199B65060007C12E /* DataGraphCell.m in Sources */,
+				75D7B502199799F90007C12E /* CenterViewController.m in Sources */,
+				75D7B55E199A5E4C0007C12E /* ResultMapCell.m in Sources */,
+				75D7B53319990C160007C12E /* DataViewController.m in Sources */,
+				75D7B54B19994A6E0007C12E /* SearchMapCell.m in Sources */,
+				75D7B4FC199799F90007C12E /* AppDelegate.m in Sources */,
+				75D7B52219979EB50007C12E /* LeftViewController.m in Sources */,
+				75D7B4F8199799F90007C12E /* main.m in Sources */,
+				75D7B53619990C220007C12E /* SettingViewController.m in Sources */,
+				757939B419A6DE8000CF14F4 /* MyPageViewController.m in Sources */,
+				75D7B5461999471C0007C12E /* SearchDetailCell.m in Sources */,
+				75D7B554199963730007C12E /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D7B505199799F90007C12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D7B517199799F90007C12E /* PatorunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D7B50F199799F90007C12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D7B4E7199799F90007C12E /* Patorun */;
+			targetProxy = 75D7B50E199799F90007C12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D7B4F4199799F90007C12E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7B4F5199799F90007C12E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75D7B4FD199799F90007C12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7B4FE199799F90007C12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D7B513199799F90007C12E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D7B514199799F90007C12E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D7B518199799F90007C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75D7B519199799F90007C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D7B51B199799F90007C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC58C674AE441A0A74B992E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patorun/Patorun-Prefix.pch";
+				INFOPLIST_FILE = "Patorun/Patorun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75D7B51C199799F90007C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC58C674AE441A0A74B992E /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patorun/Patorun-Prefix.pch";
+				INFOPLIST_FILE = "Patorun/Patorun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75D7B51E199799F90007C12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Patorun.app/Patorun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patorun/Patorun-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PatorunTests/PatorunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75D7B51F199799F90007C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Patorun.app/Patorun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Patorun/Patorun-Prefix.pch";
+				INFOPLIST_FILE = "PatorunTests/PatorunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D7B4E3199799F90007C12E /* Build configuration list for PBXProject "Patorun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7B518199799F90007C12E /* Debug */,
+				75D7B519199799F90007C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D7B51A199799F90007C12E /* Build configuration list for PBXNativeTarget "Patorun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7B51B199799F90007C12E /* Debug */,
+				75D7B51C199799F90007C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D7B51D199799F90007C12E /* Build configuration list for PBXNativeTarget "PatorunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D7B51E199799F90007C12E /* Debug */,
+				75D7B51F199799F90007C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D7B4E0199799F90007C12E /* Project object */;
+}
